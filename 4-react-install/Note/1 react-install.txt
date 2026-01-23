@@ -1,0 +1,196 @@
+				|  For VS Code Terminal – PowerShell  |
+
+
+▶️ Default Selection:
+
+
+PS C:\Users\Shahriar Ahammed\Desktop\react> npm create vite@latest my-vue-app -- -- --template react
+
+> npx
+> create-vite my-vue-app --template react
+
+│
+◇  Use rolldown-vite (Experimental)?:
+│  Yes
+│
+◇  Install with npm and start now?
+│  Yes
+│
+◇  Scaffolding project in C:\Users\Shahriar Ahammed\Desktop\react\my-vue-app...
+│
+◇  Installing dependencies with npm...
+
+added 160 packages, and audited 161 packages in 15s
+
+36 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+│
+◇  Starting dev server...
+
+> my-vue-app@0.0.0 dev
+> vite
+
+
+  ROLLDOWN-VITE v7.2.5  ready in 298 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+
+
+
+-------------------------------------------------------------
+
+
+▶️ Manual Framework Selection:
+
+PS C:\Users\Shahriar Ahammed\Desktop\react> npm create vite@latest my-vue-app -- --template react
+npm warn Unknown cli config "--template". This will stop working in the next major version of npm.
+
+> npx
+> create-vite my-vue-app react
+
+│
+◇  Select a framework:
+│  React
+│
+◇  Select a variant:
+│  TypeScript
+│
+◇  Use rolldown-vite (Experimental)?:
+│  Yes
+│
+◇  Install with npm and start now?
+│  Yes
+│
+◇  Scaffolding project in C:\Users\Shahriar Ahammed\Desktop\react\my-vue-app...
+│
+◇  Installing dependencies with npm...
+npm warn Unknown env config "template". This will stop working in the next major version of npm.
+
+added 179 packages, and audited 180 packages in 27s
+
+48 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+│
+◇  Starting dev server...
+npm warn Unknown env config "template". This will stop working in the next major version of npm.
+
+> my-vue-app@0.0.0 dev
+> vite
+
+
+  ROLLDOWN-VITE v7.2.5  ready in 253 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+
+
+
+
+==================================================================
+
+
+
+
+                                      |  For CMD Terminal  |
+
+
+
+▶️ Default Selection:
+
+Microsoft Windows [Version 10.0.19045.6456]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Shahriar Ahammed\Desktop\react>npm create vite@latest my-vue-app -- --template react
+
+> npx
+> create-vite my-vue-app --template react
+
+|
+o  Use rolldown-vite (Experimental)?:
+|  Yes
+|
+o  Install with npm and start now?
+|  Yes
+|
+o  Scaffolding project in C:\Users\Shahriar Ahammed\Desktop\react\my-vue-app...
+|
+o  Installing dependencies with npm...
+
+added 160 packages, and audited 161 packages in 13s
+
+36 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+|
+o  Starting dev server...
+
+> my-vue-app@0.0.0 dev
+> vite
+
+
+  ROLLDOWN-VITE v7.2.5  ready in 253 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+
+
+-------------------------------------------------------------
+
+
+▶️ Manual Framework Selection:
+
+Microsoft Windows [Version 10.0.19045.6456]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Shahriar Ahammed\Desktop\react>npm create vite@latest my-vue-app -- --template react
+
+> npx
+> create-vite my-vue-app --template react
+
+|
+o  Use rolldown-vite (Experimental)?:
+|  No
+|
+o  Install with npm and start now?
+|  No
+|
+o  Scaffolding project in C:\Users\Shahriar Ahammed\Desktop\react\my-vue-app...
+|
+—  Done. Now run:
+
+  cd my-vue-app
+  npm install
+  npm run dev
+
+
+C:\Users\Shahriar Ahammed\Desktop\react>cd my-vue-app
+
+C:\Users\Shahriar Ahammed\Desktop\react\my-vue-app>npm install
+
+added 157 packages, and audited 158 packages in 7s
+
+33 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\Shahriar Ahammed\Desktop\react\my-vue-app>npm run dev
+
+> my-vue-app@0.0.0 dev
+> vite
+
+
+  VITE v7.3.1  ready in 269 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
