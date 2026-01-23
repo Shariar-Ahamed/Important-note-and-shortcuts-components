@@ -41,9 +41,12 @@ Remote add & push:
   git remote set-url origin https://<your-token>@github.com/Shariar-Ahamed/<your-repo-name>.git
   git push -u origin main
 
+
+
 🔹 যেকোনো পরবর্তি আপডেটের জন্য:
   git add .
   git commit -m "Update File"
+  git branch -M main
   git push origin main
 
 
@@ -109,5 +112,6 @@ git config --system core.longpaths true
 যদি চাই পুরো .git ফোল্ডার ডিলিট করে নতুন করে শুরু করতে:
 
   rm -rf .git
+
 
 🔹 সব previous commits, remote links gone হবে।
