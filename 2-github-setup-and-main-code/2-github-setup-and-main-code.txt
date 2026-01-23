@@ -1,0 +1,113 @@
+                                  📝 Git & GitHub Quick Guide
+
+
+1️. Git User Configuration
+        প্রথমে Git এ তোমার নাম ও ইমেইল সেট করো:
+
+  git config --global user.name "your-username"
+  git config --global user.email "abc@gmail.com"
+  git config --list
+
+⚡git config --list (দিয়ে সব সেটিংস দেখার জন্য।)
+
+
+------------------------------------------------
+
+
+2️. GitHub Personal Access Token (PAT)
+
+GitHub এ push/pull এর জন্য token লাগবে।
+
+   1. GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic) → Generate new token (classic)
+   2. For general use: Repo, admin:org, admin:public_key অনুমতি দাও
+   3. Generated token save করে রাখো (নিচের মতো):
+
+Token: ghp_g6n3SBvMRDEs7moKcbIE3W42hhlnz017IaHZ
+
+
+------------------------------------------------
+
+
+3️. New Git Repository Setup
+
+  git init                    # নতুন repo তৈরি
+  git status          	                # চেক করো কোন ফাইল পরিবর্তন হয়েছে
+  git add .                   # সব ফাইল stage করো
+  git commit -m "New Commit"  # commit করো
+  git branch -M main          # main branch বানাও
+
+Remote add & push:
+  git remote add origin https://github.com/Shariar-Ahamed/<your-repo-name>.git
+  git remote set-url origin https://<your-token>@github.com/Shariar-Ahamed/<your-repo-name>.git
+  git push -u origin main
+
+🔹 যেকোনো পরবর্তি আপডেটের জন্য:
+  git add .
+  git commit -m "Update File"
+  git push origin main
+
+
+------------------------------------------------
+
+
+4️. ফাইল ডিলিট / পরিবর্তন হলে
+
+Git জানে না ফাইল ডিলিট হয়েছে কিনা, তাই stage & commit করতে হবে:
+
+  git add -A                      # সব ধরনের পরিবর্তন stage করবে (new, delete, modify)
+  git commit -m "Updated file structure and removed old files"
+  git push -f origin main
+
+⚠️ -A খুব গুরুত্বপূর্ণ, কারণ এটা নতুন, পরিবর্তিত, মুছে ফেলা সব ফাইল Git কে জানাবে।
+
+
+------------------------------------------------
+
+
+5️. README.md / Pull করো আগে
+
+  git pull origin main --rebase
+  git push origin main
+
+
+------------------------------------------------
+
+
+6️. GitHub থেকে সর্বশেষ ভার্সন আনতে
+
+ git fetch origin
+ git reset --hard origin/main
+
+
+------------------------------------------------
+
+
+7️. Long Paths Enable করা (Windows)
+
+git config --system core.longpaths true
+
+
+------------------------------------------------
+
+
+8️. VS Code এ ফোল্ডার / ফাইল পরিবর্তন
+
+ • old-folder → new-folder নাম পাল্টানো
+ • ২টি নতুন .js ফাইল যোগ
+ • ১টি পুরানো .txt ফাইল ডিলিট
+
+  git add -A
+  git commit -m "Folder renamed, new files added, old files deleted"
+  git push origin main
+
+
+------------------------------------------------
+
+
+9️. Completely Reset Git History
+
+যদি চাই পুরো .git ফোল্ডার ডিলিট করে নতুন করে শুরু করতে:
+
+  rm -rf .git
+
+🔹 সব previous commits, remote links gone হবে।
