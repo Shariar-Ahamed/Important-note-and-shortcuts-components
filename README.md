@@ -19,15 +19,23 @@ Important-note-and-shortcuts-components/
 │
 ├── 1-github-all-code/
 │   └── README.md
+│   └── Git & Git Bash.pdf
 │
 ├── 2-github-setup-and-main-code/
 │   └── README.md
+│   └── file.txt
 │
 ├── 3-tailwind-css-v4-setup/
 │   └── README.md
 │
 └── 4-react-install/
     └── README.md
+    └── Note
+        └── react-install.txt
+    └── Screenshot
+        └── CMD Default Selection.png
+        └── CMD Manual Selection.png
+        └── VS-code Default Selection.png
 ```
 
 Each topic is organized into its own folder, and **every folder contains a dedicated `README.md`**

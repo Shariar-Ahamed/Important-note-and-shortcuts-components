@@ -103,7 +103,7 @@ npm run dev
 | Not breaking now | May break in future      |
 | Safe fix         | `npm create vite@latest` |
 
-✔ Recommended command going forward
+✔ Recommended command going forward:  
 `npm create vite@latest`
 
 ---
