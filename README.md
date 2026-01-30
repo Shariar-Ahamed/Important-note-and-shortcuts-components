@@ -28,14 +28,18 @@ Important-note-and-shortcuts-components/
 ├── 3-tailwind-css-v4-setup/
 │   └── README.md
 │
-└── 4-react-install/
-    └── README.md
-    └── Note
-        └── react-install.txt
-    └── Screenshot
-        └── CMD Default Selection.png
-        └── CMD Manual Selection.png
-        └── VS-code Default Selection.png
+├── 4-react-install/
+│   ├── README.md
+│   ├── Note
+│   │   └── react-install.txt
+│   └── Screenshot
+│       └── CMD Default Selection.png
+│       └── CMD Manual Selection.png
+│       └── VS-code Default Selection.png
+└── 5-optional-file
+    ├── index.html
+    └── index.js
+
 ```
 
 Each topic is organized into its own folder, and **every folder contains a dedicated `README.md`**

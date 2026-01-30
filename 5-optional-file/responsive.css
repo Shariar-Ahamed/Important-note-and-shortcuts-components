@@ -1,0 +1,134 @@
+/* =====================================================
+   RESPONSIVE BREAKPOINT TEMPLATE
+   (Reusable / Reference Section)
+   -----------------------------------------------------
+   Purpose:
+   - This section is a generic responsive boilerplate
+   - Can be reused in any project
+   - Demonstrates mobile-first font scaling only
+   ===================================================== */
+
+/* Base Styles (Mobile First)
+   Screen: 0px – 480px */
+body {
+  margin: 0;
+  font-family: system-ui, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+/* Small Devices (Large Phones)
+   Screen: 481px – 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+/* Medium Devices (Tablets)
+   Screen: 768px – 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Large Devices (Laptops)
+   Screen: 992px – 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+  body {
+    font-size: 17px;
+  }
+}
+
+/* Extra Large Devices (Desktops)
+   Screen: 1200px and above */
+@media (min-width: 1200px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+
+
+/* =====================================================
+   PROJECT STYLES
+   (Applied Responsive Design Example)
+   -----------------------------------------------------
+   Purpose:
+   - Actual styles used in this project
+   - Includes layout + background color changes
+   - Demonstrates real responsive behavior
+   ===================================================== */
+
+/* Global Styles (Mobile First)
+   Screen: 0px – 480px */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  font-size: 14px;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+.container {
+  max-width: 100%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  margin: auto;
+}
+
+/* Small Devices (Mobile Landscape / Small Phones)
+   Screen: 481px – 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+  body {
+    background-color: #e2f0ff;
+    font-size: 15px;
+  }
+
+  .container {
+    background-color: #cce5ff;
+  }
+}
+
+/* Medium Devices (Tablets)
+   Screen: 768px – 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    background-color: #ffe2e2;
+    font-size: 16px;
+  }
+
+  .container {
+    background-color: #ffcccc;
+  }
+}
+
+/* Large Devices (Laptops)
+   Screen: 992px – 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+  body {
+    background-color: #e2ffe2;
+    font-size: 17px;
+  }
+
+  .container {
+    background-color: #ccffcc;
+  }
+}
+
+/* Extra Large Devices (Desktops / Large Screens)
+   Screen: 1200px and above */
+@media (min-width: 1200px) {
+  body {
+    background-color: #fffbe2;
+    font-size: 18px;
+  }
+
+  .container {
+    background-color: #fffacc;
+  }
+}
