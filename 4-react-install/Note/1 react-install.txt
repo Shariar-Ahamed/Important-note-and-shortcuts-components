@@ -57,7 +57,7 @@ npm warn Unknown cli config "--template". This will stop working in the next maj
 │  React
 │
 ◇  Select a variant:
-│  TypeScript
+│  JavaScript
 │
 ◇  Use rolldown-vite (Experimental)?:
 │  Yes
