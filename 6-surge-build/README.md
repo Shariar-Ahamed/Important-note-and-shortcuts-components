@@ -1,4 +1,4 @@
-## 🚀 Vite Project Deploy Using Surge
+# 🚀 Vite Project Deploy Using Surge
 
 ### 📌 Official Links
 - 🔗 Vite Static Deploy Guide: https://vite.dev/guide/static-deploy#surge
@@ -6,13 +6,29 @@
 
 ---
 
-### ⚙️ Step-by-Step Deployment Process
+## ⚙️ Step-by-Step Deployment Process
 
 ### 🥇 Step 1: Install Surge Globally
 ```bash
 npm install -g surge
 ```
 > Surge CLI global install করতে হবে (একবারই যথেষ্ট)
+
+### ❌🚨 Fixed `npm error code ENOENT` Error:
+যদি এমন error দেখো:
+```bash
+npm ERR! code ENOENT
+npm ERR! syscall open
+npm ERR! path package.json
+```
+👉 এর মানে তুমি project root folder এ নেই  
+👉 যেখানে package.json আছে সেখানে যেতে হবে  
+
+### ✅ 🛠 Solution:
+
+```bash
+cd my-vue-app
+```
 
 ---
 

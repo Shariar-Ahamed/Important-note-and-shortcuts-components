@@ -3,11 +3,14 @@
 vite url: https://vite.dev/guide/static-deploy#surge
 surge url: https://www.npmjs.com/package/surge
 
-◍ 1st step terminal command: npm install -g surge [for surge global install]
+◍ 1st step terminal command: npm install -g surge      [for surge global install]
 
-◍ 2nd step terminal command: npm run build
+◍ 2nd step terminal command: cd my-vue-app      [if show npm error code ENOENT]
 
-◍ 3rd step terminal command: surge dist
+◍ 3nd step terminal command: npm run build [Press Ender]
+
+
+◍ 4rd step terminal command: surge dist
 
    Welcome to surge! (surge.sh)
    Login or create surge account by entering email & password.
@@ -24,7 +27,7 @@ surge url: https://www.npmjs.com/package/surge
    Aborted - you do not have permission to publish to parsimonious-floor.surge.sh
 
 
-◍ 4th step terminal command: surge dist [Press Ender]
+◍ 5th step terminal command: surge dist      [Press Ender]
 
         project: dist
          domain: zesty-pen.surge.sh
