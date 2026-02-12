@@ -38,12 +38,12 @@ Important-note-and-shortcuts-components/
 │       └── VS-code Default Selection.png
 │
 ├── 5-optional-file
-│   ├── index.html
+│   └── index.html
 │   └── index.js
 │
 └── 6-surge-build
-    ├── surge-build.txt
     └── README.md
+    └── surge-build.txt
 
 ```
 
@@ -88,7 +88,7 @@ Covers **modern React installation methods**, including:
 
 ---
 
-## 🎯 Goal of This Repository
+## 5️⃣ Goal of This Repository
 
 - Keep all important development notes in one place
 - Maintain a clean and structured reference repository
@@ -96,6 +96,15 @@ Covers **modern React installation methods**, including:
 - Use as a long-term personal knowledge base
 
 ---
+
+## 6️⃣ Surge Build
+Provides a **simple and fast deployment guide using Surge.sh**, including:
+- Installing Surge globally using npm
+- Building production files (Vite / React build)
+- Deploying static sites to Surge
+- Custom domain setup (optional)
+- Updating an existing deployed project
+- Common deployment troubleshooting
 
 ## 👤 About the Author
 
