@@ -36,9 +36,14 @@ Important-note-and-shortcuts-components/
 │       └── CMD Default Selection.png
 │       └── CMD Manual Selection.png
 │       └── VS-code Default Selection.png
-└── 5-optional-file
-    ├── index.html
-    └── index.js
+│
+├── 5-optional-file
+│   ├── index.html
+│   └── index.js
+│
+└── 6-surge-build
+    ├── surge-build.txt
+    └── README.md
 
 ```
 

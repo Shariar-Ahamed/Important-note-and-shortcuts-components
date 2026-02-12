@@ -1,0 +1,69 @@
+>>>>>>>>>>>>>>>>>>>>>||Surge Build||<<<<<<<<<<<<<<<<<<<
+
+vite url: https://vite.dev/guide/static-deploy#surge
+surge url: https://www.npmjs.com/package/surge
+
+◍ 1st step terminal command: npm install -g surge [for surge global install]
+
+◍ 2nd step terminal command: npm run build
+
+◍ 3rd step terminal command: surge dist
+
+   Welcome to surge! (surge.sh)
+   Login or create surge account by entering email & password.
+
+          email: sharier0ahmed111@gmail.com
+       password:
+
+   Running as sharier0ahmed111@gmail.com (Student)
+
+        project: dist
+         domain: parsimonious-floor.surge.sh
+           size: 4 files, 193.4 KB
+
+   Aborted - you do not have permission to publish to parsimonious-floor.surge.sh
+
+
+◍ 4th step terminal command: surge dist [Press Ender]
+
+        project: dist
+         domain: zesty-pen.surge.sh
+           size: 4 files, 193.4 KB
+         upload: [=========================] 100%
+            CDN: [=========================] 100%
+     encryption: [=========================] 100%
+
+
+  ┌──────────────────────────────────────────────────────────────────────────────┬────────────────────┐
+  │  Certificate: issuer=C = GB, ST = Greater Manchester, L = Salford, O = Sec…  │  Valid             │
+  │   *.surge.sh, surge.sh                                                       │  113 more days     │
+  └──────────────────────────────────────────────────────────────────────────────┴────────────────────┘
+  ┌──────────┬──────────────────────────────────────────────────────────────────────────────┬─────────┐
+  │          │   ns1.surge.world   ns2.surge.world     or CNAME…                            │         │
+  │    NS    │   ns3.surge.world   ns4.surge.world     geo.surge.world                      │         │
+  ├──────────┼──────────────────┬───────────────────────┬─────────────────────┬─────────────┼─────────┤
+  │   HTTP   │   sfo.surge.sh   │   US, San Francisco   │   138.197.235.123   │   D.Ocean   │   ✔ ◍  │
+  │   HTTP   │   lhr.surge.sh   │   GB, London          │   46.101.67.123     │   D.Ocean   │   ✔ ◍  │
+  │   HTTP   │   yyz.surge.sh   │   CA, Toronto         │   159.203.50.177    │   D.Ocean   │   ✔ ◍  │
+  │   HTTP   │   jfk.surge.sh   │   US, New York        │   159.203.159.100   │   D.Ocean   │   ✔ ◍  │
+  │   HTTP   │   ams.surge.sh   │   NL, Amsterdam       │   188.166.132.94    │   D.Ocean   │   ✔ ◍  │
+  │   HTTP   │   fra.surge.sh   │   DE, Frankfurt       │   138.68.112.220    │   D.Ocean   │   ✔ ◍  │
+  │   HTTP   │   sgp.surge.sh   │   SG, Singapore       │   139.59.195.30     │   D.Ocean   │   ✔ ◍  │
+  │   HTTP   │   blr.surge.sh   │   IN, Bangalore       │   139.59.50.135     │   D.Ocean   │   ✔ ◍  │
+  │   HTTP   │   syd.surge.sh   │   AU, Sydney          │   45.76.126.95      │   Vultr     │   ✔ ◍  │
+  │   HTTP   │   nrt.surge.sh   │   JP, Tokyo           │   172.104.96.133    │   Linode    │   ✔ ◍  │
+  └──────────┴──────────────────┴───────────────────────┴─────────────────────┴─────────────┴─────────┘
+   Live preview ..................................................... 1770867316874-zesty-pen.surge.sh
+   Production ..................................................................... zesty-pen.surge.sh
+
+   Success! - Published to zesty-pen.surge.sh
+
+
+
+
+
+                          >>>>>>>||Update file and make custom url||<<<<<<<
+
+## CDN Features
+  
+◍ create file: my-vue-app/public/CNAME --> zesty-pen.surge.sh
