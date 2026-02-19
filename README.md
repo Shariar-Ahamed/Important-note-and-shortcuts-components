@@ -32,18 +32,18 @@ Important-note-and-shortcuts-components/
 │   ├── README.md
 │   ├── Note
 │   │   └── react-install.txt
-│   └── Screenshot
+│   └── Screenshot/
 │       └── CMD Default Selection.png
 │       └── CMD Manual Selection.png
 │       └── VS-code Default Selection.png
 │
-├── 5-optional-file
-│   └── index.html
-│   └── index.js
+├── 5-surge-build/
+│   └── README.md
+│   └── surge-build.txt
 │
-└── 6-surge-build
-    └── README.md
-    └── surge-build.txt
+└── 6-optional-file/
+    └── index.html
+    └── responsive.css
 
 ```
 
