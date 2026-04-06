@@ -122,7 +122,6 @@ Stage all project changes, Commit with descriptive message, Ensure main branch i
 | `git rm -r --cached .vscode` | Select `.vscode` for remove |
 | `git commit -m "Remove .vscode folder"` | Commit updates |
 | `git push` | Push all changes to GitHub |
-| `git push origin main` |  |
 
 ---
 
