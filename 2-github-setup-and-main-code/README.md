@@ -79,10 +79,11 @@ Stage all project changes, Commit with descriptive message, Ensure main branch i
 
 ---
 
-## 7 README.md Updates
+## 7 Repo and README.md Updates version clone
 
 | Command | Explanation |
 |---------|-------------|
+| `git pull` | Already repo clone and again update clone |
 | `git pull origin main --rebase` | Pull latest changes before editing README |
 | `git push origin main` | Push updated README to GitHub |
 
