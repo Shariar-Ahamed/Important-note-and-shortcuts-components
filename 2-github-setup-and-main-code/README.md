@@ -1,7 +1,9 @@
-# GitHub Setup & Main Code – Commands & Explanations
+<h2 align="center">GitHub Setup & Main Code – Commands & Explanations</h2>
 
-This document contains **step-by-step Git & GitHub setup commands** for connecting local projects, pushing updates, and managing repositories.  
+<p align="center">
+This document contains <b>step-by-step Git & GitHub setup commands</b> for connecting local projects, pushing updates, and managing repositories.  
 Left column = command / code, Right column = explanation.
+</p>
 
 ---
 
@@ -113,8 +115,18 @@ Stage all project changes, Commit with descriptive message, Ensure main branch i
 | `git push origin main` | Push all changes to GitHub |
 
 ---
+## 11 .vscode Folder Remove
 
-## 11 Reset Git Repository
+| Command | Explanation |
+|---------|-------------|
+| `git rm -r --cached .vscode` | Select `.vscode` for remove |
+| `git commit -m "Remove .vscode folder"` | Commit updates |
+| `git push` | Push all changes to GitHub |
+| `git push origin main` |  |
+
+---
+
+## 12 Reset Git Repository
 
 | Command | Explanation |
 |---------|-------------|
