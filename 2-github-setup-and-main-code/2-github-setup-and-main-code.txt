@@ -107,7 +107,17 @@ git config --system core.longpaths true
 ------------------------------------------------
 
 
-9️. Completely Reset Git History
+9️. যদি .vscode already GitHub এ push হয়ে যায়  তাহলে  এই command run করতে হবে:
+
+git rm -r --cached .vscode
+git commit -m "Remove .vscode folder"
+git push
+
+
+------------------------------------------------
+
+
+👉 Completely Reset Git History
 
 যদি চাই পুরো .git ফোল্ডার ডিলিট করে নতুন করে শুরু করতে:
 
