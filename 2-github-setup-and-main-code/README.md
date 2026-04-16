@@ -135,6 +135,101 @@ Stage all project changes, Commit with descriptive message, Ensure main branch i
 
 ---
 
+## 13 Branch Management
+
+| Command | Explanation |
+|---------|-------------|
+| `git branch` | List all local branches |
+| `git branch new-branch` | Create a new branch |
+| `git checkout new-branch` | Switch to another branch |
+| `git checkout -b new-branch` | Create & switch to new branch |
+| `git merge new-branch` | Merge branch into current branch |
+| `git branch -d new-branch` | Delete a branch |
+
+---
+
+## 14 Checking History & Logs
+
+| Command | Explanation |
+|---------|-------------|
+| `git log` | View commit history |
+| `git log --oneline` | Short commit history |
+| `git diff` | Show changes between commits/files |
+| `git show` | Show details of a commit |
+
+---
+
+## 15 Undo & Fix Mistakes
+
+| Command | Explanation |
+|---------|-------------|
+| `git restore file.txt` | Restore file to last committed state |
+| `git reset HEAD file.txt` | Unstage a file |
+| `git commit --amend` | Edit last commit message |
+| `git reset --soft HEAD~1` | Undo last commit but keep changes |
+| `git reset --hard HEAD~1` | Undo last commit and delete changes |
+
+---
+
+## 16 Stash (Temporary Save)
+
+| Command | Explanation |
+|---------|-------------|
+| `git stash` | Save current changes temporarily |
+| `git stash pop` | Restore saved changes |
+| `git stash list` | Show all saved stashes |
+
+---
+
+## 17 Clone Repository
+
+| Command | Explanation |
+|---------|-------------|
+| `git clone https://github.com/username/repo.git` | Clone repository from GitHub |
+| `git clone <repo-link> .` | Clone into current folder |
+
+---
+
+## 18 .gitignore Setup
+
+| Command | Explanation |
+|---------|-------------|
+| Create `.gitignore` file | Used to ignore unnecessary files |
+| Example: `.vscode/` | Ignore VS Code settings |
+| Example: `node_modules/` | Ignore dependencies |
+
+---
+
+## 19 Remote Management
+
+| Command | Explanation |
+|---------|-------------|
+| `git remote -v` | Show remote repository URLs |
+| `git remote remove origin` | Remove remote connection |
+| `git remote rename origin new-origin` | Rename remote repository |
+
+---
+
+## 20 Tagging (Version Control)
+
+| Command | Explanation |
+|---------|-------------|
+| `git tag v1.0` | Create a version tag |
+| `git tag` | List all tags |
+| `git push origin v1.0` | Push tag to GitHub |
+
+---
+
+## 🚀 Pro Tips
+
+- Always run `git pull` before starting new work  
+- Use meaningful commit messages  
+- Avoid pushing unnecessary files like `.vscode` and `node_modules`  
+- Use branches for new features  
+- Keep commit history clean using `--rebase`
+
+---
+
 ## 📝 Short Description
 
 This folder contains **GitHub setup and main project workflow commands**.  
