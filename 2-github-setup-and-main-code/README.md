@@ -81,11 +81,12 @@ Stage all project changes, Commit with descriptive message, Ensure main branch i
 
 ## 7 Repo and README.md Updates version clone
 
-| Command | Explanation |
-|---------|-------------|
-| `git pull` | Already repo clone and again update clone |
-| `git pull origin main --rebase` | Pull latest changes before editing README |
-| `git push origin main` | Push updated README to GitHub |
+| Command                         | Explanation                                |
+| ------------------------------- | ------------------------------------------ |
+| `git pull origin main`          | Pull latest code from remote `main` branch |
+| `git pull`                      | Update local repo from tracked branch      |
+| `git pull origin main --rebase` | Pull and keep commit history clean         |
+| `git push origin main`          | Push local changes to remote repo          |
 
 ---
 
