@@ -135,7 +135,7 @@ Stage all project changes, Commit with descriptive message, Ensure main branch i
 
 ---
 
-## 13 Git Feature Branch Push Workflow (Active Branch → Remote)
+## 13 Feature Branch Push Workflow (Active → Remote)
 
 | Command                            | Explanation                                |
 | ---------------------------------- | ------------------------------------------ |
@@ -146,7 +146,7 @@ Stage all project changes, Commit with descriptive message, Ensure main branch i
 | `git push origin feature-yourName` | Upload active feature branch to GitHub     |
 
 ---
-## 14 Git Feature Branch Merge Workflow (Active Branch → Main)
+## 14 Feature Branch Merge Workflow (Feature → Main)
 
 | Command | Explanation |
 |---------|-------------|
