@@ -135,7 +135,29 @@ Stage all project changes, Commit with descriptive message, Ensure main branch i
 
 ---
 
-## 13 Branch Management
+## 13 Git Feature Branch Push Workflow (Active Branch → Remote)
+
+| Command                            | Explanation                                |
+| ---------------------------------- | ------------------------------------------ |
+| `git pull origin main`             | Get latest updates from GitHub main branch |
+| `git checkout -b feature-yourName` | Create and switch to a new feature branch  |
+| `git add .`                        | Stage all changes                          |
+| `git commit -m "Your-commit"`      | Save changes with a message                |
+| `git push origin feature-yourName` | Upload active feature branch to GitHub     |
+
+---
+## 14 Git Feature Branch Merge Workflow (Active Branch → Main)
+
+| Command | Explanation |
+|---------|-------------|
+| `git checkout main` | Switch to main branch |
+| `git pull origin main` | Get latest updates from GitHub main branch |
+| `git fetch origin` | Fetch all latest branches and updates from remote |
+| `git merge origin/feature-yourName` | Merge friend’s feature-yourName branch into main |
+| `git push origin main` | Upload updated main branch to GitHub |
+---
+
+## 15 Branch Management
 
 | Command | Explanation |
 |---------|-------------|
@@ -148,7 +170,7 @@ Stage all project changes, Commit with descriptive message, Ensure main branch i
 
 ---
 
-## 14 Checking History & Logs
+## 16 Checking History & Logs
 
 | Command | Explanation |
 |---------|-------------|
@@ -159,7 +181,7 @@ Stage all project changes, Commit with descriptive message, Ensure main branch i
 
 ---
 
-## 15 Undo & Fix Mistakes
+## 17 Undo & Fix Mistakes
 
 | Command | Explanation |
 |---------|-------------|
@@ -171,7 +193,7 @@ Stage all project changes, Commit with descriptive message, Ensure main branch i
 
 ---
 
-## 16 Stash (Temporary Save)
+## 18 Stash (Temporary Save)
 
 | Command | Explanation |
 |---------|-------------|
@@ -181,7 +203,7 @@ Stage all project changes, Commit with descriptive message, Ensure main branch i
 
 ---
 
-## 17 Clone Repository
+## 19 Clone Repository
 
 | Command | Explanation |
 |---------|-------------|
@@ -190,7 +212,7 @@ Stage all project changes, Commit with descriptive message, Ensure main branch i
 
 ---
 
-## 18 .gitignore Setup
+## 20 .gitignore Setup
 
 | Command | Explanation |
 |---------|-------------|
@@ -200,7 +222,7 @@ Stage all project changes, Commit with descriptive message, Ensure main branch i
 
 ---
 
-## 19 Remote Management
+## 21 Remote Management
 
 | Command | Explanation |
 |---------|-------------|
@@ -210,7 +232,7 @@ Stage all project changes, Commit with descriptive message, Ensure main branch i
 
 ---
 
-## 20 Tagging (Version Control)
+## 22 Tagging (Version Control)
 
 | Command | Explanation |
 |---------|-------------|
