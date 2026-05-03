@@ -38,13 +38,13 @@ npm create vite@latest my-vue-app -- --template react
 ---
 
 ### ▶️ Manual Framework Selection (Recommended – New Way)
-
-`npm create vite@latest my-vue-app -- -- --template react`
-
+```bash
+npm create vite@latest my-vue-app -- -- --template react
+```
 | Step          | Selection               |
 | ------------- | ----------------------- |
 | Framework     | React                   |
-| Variant       | TypeScript / JavaScript |
+| Variant       | JavaScript / TypeScript |
 | Rolldown Vite | Yes                     |
 | Install now   | Yes                     |
 
@@ -55,7 +55,9 @@ npm create vite@latest my-vue-app -- --template react
 
 ## 03 React Install (CMD)
 ### ▶️ Default Selection
-`npm create vite@latest my-vue-app -- --template react`
+```bash
+npm create vite@latest my-vue-app -- --template react
+```
 | Step                   | Result                                         |
 | ---------------------- | ---------------------------------------------- |
 | Project Created        | Yes                                            |
@@ -66,8 +68,9 @@ npm create vite@latest my-vue-app -- --template react
 ---
 
 ### ▶️ Manual Selection (No Auto Start)
-`npm create vite@latest my-vue-app -- --template react` 
-
+```bash
+npm create vite@latest my-vue-app -- --template react 
+```
 When prompted:
 - Rolldown-vite → **No**
 - Install now → **No**
@@ -95,7 +98,9 @@ npm run dev
 
 ## 05 Common Warnings Explained
 ### ⚠️ npm Warning
-`npm warn Unknown cli config "--template"`
+```bash
+npm warn Unknown cli config "--template"
+```
 
 | Meaning          | Solution                 |
 | ---------------- | ------------------------ |
@@ -104,7 +109,9 @@ npm run dev
 | Safe fix         | `npm create vite@latest` |
 
 ✔ Recommended command going forward:  
-`npm create vite@latest`
+```bash
+npm create vite@latest
+```
 
 ---
 
