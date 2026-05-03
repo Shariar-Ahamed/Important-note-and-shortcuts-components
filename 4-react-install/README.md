@@ -20,7 +20,7 @@ It covers **default selection**, **manual selection**, and common warnings.
 
 ### ▶️ Default Selection
 ```bash
-npm create vite@latest my-vue-app -- -- --template react
+npm create vite@latest my-vue-app -- --template react
 ```
 ### ▶️ Interactive Steps (Default Selection)
 | Prompt                            | Selected Option |
@@ -39,7 +39,7 @@ npm create vite@latest my-vue-app -- -- --template react
 
 ### ▶️ Manual Framework Selection (Recommended – New Way)
 
-`npm create vite@latest my-vue-app -- --template react`
+`npm create vite@latest my-vue-app -- -- --template react`
 
 | Step          | Selection               |
 | ------------- | ----------------------- |
