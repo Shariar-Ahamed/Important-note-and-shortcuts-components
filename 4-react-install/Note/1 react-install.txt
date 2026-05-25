@@ -1,11 +1,10 @@
-				|  For VS Code Terminal – PowerShell  |
+				|  For VS Code Terminal – PowerShell 7 |
 
 
 ▶️ Default Selection:
 
 
-PS C:\Users\Shahriar Ahammed\Desktop\react> npm create vite@latest my-vue-app -- -- --template react
-
+PS C:\Users\Shahriar Ahammed\Desktop\react> npm create vite@latest my-vue-app -- --template react
 > npx
 > create-vite my-vue-app --template react
 
@@ -46,7 +45,7 @@ found 0 vulnerabilities
 
 ▶️ Manual Framework Selection:
 
-PS C:\Users\Shahriar Ahammed\Desktop\react> npm create vite@latest my-vue-app -- --template react
+PS C:\Users\Shahriar Ahammed\Desktop\react> npm create vite@latest my-vue-app -- -- --template react
 npm warn Unknown cli config "--template". This will stop working in the next major version of npm.
 
 > npx
