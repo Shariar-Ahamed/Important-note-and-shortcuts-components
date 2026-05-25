@@ -16,7 +16,7 @@ It covers **default selection**, **manual selection**, and common warnings.
 
 ---
 
-## 02 React Install (VS Code Terminal – PowerShell)
+## 02 React Install (VS Code Terminal – PowerShell 7)
 
 ### ▶️ Default Selection
 ```bash
