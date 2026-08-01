@@ -1,17 +1,15 @@
 # Important Notes & Shortcuts Components
 
-This repository is a **central place for important notes, setup guides, and reusable references**
-related to modern web development tools.
+This repository is a **central place for important notes, setup guides, and reusable references** related to modern web development tools.
 
-It is designed to help with:
-- Quick revision
-- Faster project setup
-- Maintaining clean and reusable documentation
-- Avoiding repeated searching for common commands and configurations
+> 🚀 **Looking for the Complete Master Git & GitHub Guide?**  
+> We have launched a dedicated 8-language master reference repository:  
+> 👉 [**git-mastery-guide**](https://github.com/Shariar-Ahamed/git-mastery-guide)
 
 ---
 
 ## 📂 Repository Structure
+
 ```bash
 Important-note-and-shortcuts-components/
 │
@@ -21,34 +19,30 @@ Important-note-and-shortcuts-components/
 │   └── README.md
 │   └── Git & Git Bash.pdf
 │
-├── 2-github-setup-and-main-code/
-│   └── README.md
-│   └── file.txt
-│
-├── 3-tailwind-css-v4-setup/
+├── 2-tailwind-css-v4-setup/
 │   └── README.md
 │
-├── 4-react-install/
+├── 3-react-install/
 │   ├── README.md
-│   ├── Note
+│   ├── Note/
 │   │   └── react-install.txt
 │   └── Screenshot/
-│       └── CMD Default Selection.png
-│       └── CMD Manual Selection.png
+│       ├── CMD Default Selection.png
+│       ├── CMD Manual Selection.png
 │       └── VS-code Default Selection.png
 │
-├── 5-surge-build/
+├── 4-surge-build/
 │   └── README.md
 │   └── surge-build.txt
 │
-└── 6-optional-file/
-    └── index.html
+└── 5-optional-file/
+    ├── index.html
     └── responsive.css
-
 ```
 
-Each topic is organized into its own folder, and **every folder contains a dedicated `README.md`**
-with clear explanations and examples.
+Each topic is organized into its own folder, and **every folder contains a dedicated `README.md`** with clear explanations and examples.
+
+---
 
 ### 1️⃣ GitHub All Code
 Contains commonly used **Git and GitHub commands**, including:
@@ -59,17 +53,7 @@ Contains commonly used **Git and GitHub commands**, including:
 
 ---
 
-### 2️⃣ GitHub Setup and Main Code
-Focuses on **initial GitHub setup and core workflows**, such as:
-- Creating a new repository
-- Connecting local projects to GitHub
-- First commit and push
-- Remote configuration
-- Basic SSH setup
-
----
-
-### 3️⃣ Tailwind CSS v4 Setup
+### 2️⃣ Tailwind CSS v4 Setup
 Provides a **step-by-step setup guide for Tailwind CSS version 4**, including:
 - Installation using npm
 - Configuration files
@@ -79,7 +63,7 @@ Provides a **step-by-step setup guide for Tailwind CSS version 4**, including:
 
 ---
 
-### 4️⃣ React Install
+### 3️⃣ React Install
 Covers **modern React installation methods**, including:
 - React with Vite (recommended)
 - React with Create React App (legacy)
@@ -88,16 +72,7 @@ Covers **modern React installation methods**, including:
 
 ---
 
-## 5️⃣ Goal of This Repository
-
-- Keep all important development notes in one place
-- Maintain a clean and structured reference repository
-- Improve productivity during development
-- Use as a long-term personal knowledge base
-
----
-
-## 6️⃣ Surge Build
+### 4️⃣ Surge Build
 Provides a **simple and fast deployment guide using Surge.sh**, including:
 - Installing Surge globally using npm
 - Building production files (Vite / React build)
@@ -105,6 +80,22 @@ Provides a **simple and fast deployment guide using Surge.sh**, including:
 - Custom domain setup (optional)
 - Updating an existing deployed project
 - Common deployment troubleshooting
+
+---
+
+### 5️⃣ Optional Files
+Contains **optional reference templates & CSS components** for quick styling.
+
+---
+
+## 🎯 Goal of This Repository
+
+- Keep all important development notes in one place
+- Maintain a clean and structured reference repository
+- Improve productivity during development
+- Use as a long-term personal knowledge base
+
+---
 
 ## 👤 About the Author
 
