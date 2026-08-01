@@ -6,8 +6,8 @@ This document is an <b>all-in-one comprehensive Git & GitHub command reference g
 
 <div align="center">
 
-### 🌐 Select Language / ভাষা পরিবর্তন করুন / Seleccionar idioma:
-[**🇺🇸 English**](README.md) &nbsp;|&nbsp; [**🇧🇩 বাংলা (Bangla)**](languages/README.bn.md) &nbsp;|&nbsp; [**🇪🇸 Español (Spanish)**](languages/README.es.md)
+### 🌐 Select Language / ভাষা পরিবর্তন করুন / Seleccionar idioma / भाषा चुनें:
+[**🇺🇸 English**](README.md) &nbsp;|&nbsp; [**🇧🇩 বাংলা**](languages/README.bn.md) &nbsp;|&nbsp; [**🇪🇸 Español**](languages/README.es.md) &nbsp;|&nbsp; [**🇮🇳 हिन्दी**](languages/README.hi.md) &nbsp;|&nbsp; [**🇫🇷 Français**](languages/README.fr.md) &nbsp;|&nbsp; [**🇩🇪 Deutsch**](languages/README.de.md) &nbsp;|&nbsp; [**🇨🇳 中文**](languages/README.zh.md) &nbsp;|&nbsp; [**🇸🇦 العربية**](languages/README.ar.md)
 
 </div>
 
