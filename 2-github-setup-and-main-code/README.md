@@ -6,16 +6,15 @@ This document is an <b>all-in-one comprehensive Git & GitHub command reference g
 
 <div align="center">
 
-### 🌐 Select Page Language / ভাষা নির্বাচন করুন / Seleccionar idioma:
-[**🇺🇸 English Version**](#-english-version) &nbsp;|&nbsp; [**🇧🇩 বাংলা সংস্করণ**](#-বাংলা-সংস্করণ) &nbsp;|&nbsp; [**🇪🇸 Versión en Español**](#-versión-en-español)
+### 🌐 Select Language / ভাষা পছন্দ করুন / Seleccionar idioma:
+*Click on any language bar below to reveal its full explanation tables. All other languages stay hidden!*
 
 </div>
 
 ---
 
-# 🇺🇸 English Version
-
-<p align="right"><a href="#top">⬆ Back to Language Selection</a></p>
+<details open>
+<summary><h2 style="display:inline">🇺🇸 English Version (Click to Expand / Collapse)</h2></summary>
 
 ## 📌 Table of Contents (English)
 
@@ -428,13 +427,10 @@ git push -u origin main
 
 ---
 
-<br/>
-<hr/>
-<br/>
+</details>
 
-# 🇧🇩 বাংলা সংস্করণ
-
-<p align="right"><a href="#top">⬆ উপরে ভাষা নির্বাচনে ফিরে যান</a></p>
+<details>
+<summary><h2 style="display:inline">🇧🇩 বাংলা সংস্করণ (দেখতে / লুকাতে এখানে ক্লিক করুন)</h2></summary>
 
 ## 📌 সূচিপত্র (বাংলা)
 
@@ -847,13 +843,10 @@ git push -u origin main
 
 ---
 
-<br/>
-<hr/>
-<br/>
+</details>
 
-# 🇪🇸 Versión en Español
-
-<p align="right"><a href="#top">⬆ Volver a la Selección de Idioma</a></p>
+<details>
+<summary><h2 style="display:inline">🇪🇸 Versión en Español (Haz clic aquí para Mostrar / Ocultar)</h2></summary>
 
 ## 📌 Tabla de Contenidos (Español)
 
@@ -1266,11 +1259,22 @@ git push -u origin main
 
 ---
 
-## 🚀 Pro Tips / Sugerencias Profesionales
+</details>
+
+---
+
+## 🚀 Pro Tips
 
 - **Always run `git pull`** before starting new work to prevent merge conflicts.
-- **Ejecute siempre `git pull`** antes de empezar a trabajar para evitar conflictos.
-- **Escriba mensajes de commit descriptivos** (`fix: solve navbar toggle bug`).
-- **Mantenga `.gitignore` actualizado** para no subir claves secretas o dependencias pesadas.
-- **Utilice ramas de funciones** (`feature/navbar`) para trabajar en lugar de subir directo a `main`.
-- **Use `git reflog`** si cree que perdió código: ¡Git casi nunca borra datos confirmados!
+- **Write descriptive commit messages** (e.g., `fix: solve navbar toggle bug` instead of `fixed`).
+- **Always maintain `.gitignore`** to avoid committing sensitive keys (`.env`), `.vscode`, or heavy folders (`node_modules`).
+- **Use feature branches** (`feature/header`, `bugfix/login`) for new work rather than committing directly to `main`.
+- **Use `git reflog`** if you think you lost code—Git rarely deletes committed data!
+- **Use GitHub CLI (`gh`)** for super fast PR creation and repo management directly from terminal.
+
+---
+
+## 📝 Short Description
+
+This document contains **the ultimate master guide for Git setup, commands, workflows, GitHub CLI tools, and troubleshooting**.  
+It is designed for **quick reference, daily productivity, team collaboration, and complete repository management**, making it invaluable for beginners and seasoned developers alike.
