@@ -7,7 +7,7 @@ This document is an <b>all-in-one comprehensive Git & GitHub command reference g
 <div align="center">
 
 ### 🌐 Select Language / ভাষা পরিবর্তন করুন / Seleccionar idioma:
-[**🇺🇸 English**](README.md) &nbsp;|&nbsp; [**🇧🇩 বাংলা (Bangla)**](README.bn.md) &nbsp;|&nbsp; [**🇪🇸 Español (Spanish)**](README.es.md)
+[**🇺🇸 English**](README.md) &nbsp;|&nbsp; [**🇧🇩 বাংলা (Bangla)**](languages/README.bn.md) &nbsp;|&nbsp; [**🇪🇸 Español (Spanish)**](languages/README.es.md)
 
 </div>
 

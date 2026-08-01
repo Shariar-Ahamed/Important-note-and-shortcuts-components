@@ -7,7 +7,7 @@ Este documento es una <b>guía de referencia completa de comandos de Git y GitHu
 <div align="center">
 
 ### 🌐 Seleccionar idioma / Select Language / ভাষা পরিবর্তন করুন:
-[**🇺🇸 English**](README.md) &nbsp;|&nbsp; [**🇧🇩 বাংলা (Bangla)**](README.bn.md) &nbsp;|&nbsp; [**🇪🇸 Español (Spanish)**](README.es.md)
+[**🇺🇸 English**](../README.md) &nbsp;|&nbsp; [**🇧🇩 বাংলা (Bangla)**](README.bn.md) &nbsp;|&nbsp; [**🇪🇸 Español (Spanish)**](README.es.md)
 
 </div>
 

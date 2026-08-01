@@ -7,7 +7,7 @@
 <div align="center">
 
 ### 🌐 ভাষা পরিবর্তন করুন / Select Language / Seleccionar idioma:
-[**🇺🇸 English**](README.md) &nbsp;|&nbsp; [**🇧🇩 বাংলা (Bangla)**](README.bn.md) &nbsp;|&nbsp; [**🇪🇸 Español (Spanish)**](README.es.md)
+[**🇺🇸 English**](../README.md) &nbsp;|&nbsp; [**🇧🇩 বাংলা (Bangla)**](README.bn.md) &nbsp;|&nbsp; [**🇪🇸 Español (Spanish)**](README.es.md)
 
 </div>
 
