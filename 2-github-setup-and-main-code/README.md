@@ -23,7 +23,7 @@ Left column = command / code, Right column = explanation.
 |------|-------------|
 | Go to **Settings → Developer settings → Personal access tokens → Tokens (classic) → Generate new token (classic)**  | Navigate to generate a token |
 | Generate a new token (classic) | Select scopes for general use: repo, notes, admin:org, admin:public_key |
-| Example token | `ghp_g6n3SBvMRDEs7moKcbIE3W42hhlnz017IaHZ` |
+| Example token | `ghp_yourPersonalAccessTokenHere...` |
 
 ---
 
@@ -70,6 +70,9 @@ Stage all project changes, Commit with descriptive message, Ensure main branch i
 ---
 
 ## 6 Handling Deleted Files
+
+> [!WARNING]
+> **Use Force Push (`git push -f`) with extreme caution!** It overwrites remote repository history and can overwrite teammates' work if used on a shared branch.
 
 | Command | Explanation |
 |---------|-------------|
@@ -129,9 +132,10 @@ Stage all project changes, Commit with descriptive message, Ensure main branch i
 
 ## 12 Reset Git Repository
 
-| Command | Explanation |
+| Command / Shell | Explanation |
 |---------|-------------|
-| `rm -rf .git` | Delete `.git` folder (removes Git history, remote, all tracking) |
+| `rm -rf .git` (Git Bash / Linux / Mac) | Delete `.git` folder (removes Git history, remote, all tracking) |
+| `Remove-Item -Recurse -Force .git` (PowerShell) | Delete `.git` folder in Windows PowerShell |
 
 ---
 
