@@ -6,8 +6,16 @@ Este documento es una <b>guía de referencia completa de comandos de Git y GitHu
 
 <div align="center">
 
-### 🌐 Seleccionar idioma / Select Language / ভাষা পরিবর্তন করুন:
-[**🇺🇸 English**](../README.md) &nbsp;|&nbsp; [**🇧🇩 বাংলা (Bangla)**](README.bn.md) &nbsp;|&nbsp; [**🇪🇸 Español (Spanish)**](README.es.md)
+### 🌐 Seleccionar idioma / Select Language / ভাষা পরিবর্তন করুন / Idiomas:
+
+<a href="../README.md"><img src="https://flagcdn.com/20x15/us.png" alt="USA" width="20" height="15"> <b>English</b></a> &nbsp;|&nbsp;
+<a href="README.bn.md"><img src="https://flagcdn.com/20x15/bd.png" alt="Bangladesh" width="20" height="15"> <b>বাংলা (Bangla)</b></a> &nbsp;|&nbsp;
+<a href="README.es.md"><img src="https://flagcdn.com/20x15/es.png" alt="Spain" width="20" height="15"> <b>Español</b></a> &nbsp;|&nbsp;
+<a href="README.hi.md"><img src="https://flagcdn.com/20x15/in.png" alt="India" width="20" height="15"> <b>हिन्दी (Hindi)</b></a> &nbsp;|&nbsp;
+<a href="README.fr.md"><img src="https://flagcdn.com/20x15/fr.png" alt="France" width="20" height="15"> <b>Français</b></a> &nbsp;|&nbsp;
+<a href="README.de.md"><img src="https://flagcdn.com/20x15/de.png" alt="Germany" width="20" height="15"> <b>Deutsch</b></a> &nbsp;|&nbsp;
+<a href="README.zh.md"><img src="https://flagcdn.com/20x15/cn.png" alt="China" width="20" height="15"> <b>中文</b></a> &nbsp;|&nbsp;
+<a href="README.ar.md"><img src="https://flagcdn.com/20x15/sa.png" alt="Saudi Arabia" width="20" height="15"> <b>العربية</b></a>
 
 </div>
 
@@ -64,7 +72,7 @@ Este documento es una <b>guía de referencia completa de comandos de Git y GitHu
 
 | Paso | Explicación en Español |
 |------|-------------|
-| **Settings → Developer settings → Personal access tokens → Tokens (classic)** | Navegar para generar un token de acceso personal |
+| **Settings → Developer settings → Personal access tokens** | Navegar para generar un token de acceso personal |
 | Seleccionar permisos | Seleccionar scopes generales: repo, notes, admin:org |
 | Token de ejemplo | `ghp_yourPersonalAccessTokenHere...` |
 

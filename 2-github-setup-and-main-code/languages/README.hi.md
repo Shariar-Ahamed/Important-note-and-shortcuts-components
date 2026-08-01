@@ -6,8 +6,16 @@
 
 <div align="center">
 
-### 🌐 भाषा चुनें / Select Language:
-[**🇺🇸 English**](../README.md) &nbsp;|&nbsp; [**🇧🇩 বাংলা**](README.bn.md) &nbsp;|&nbsp; [**🇪🇸 Español**](README.es.md) &nbsp;|&nbsp; [**🇮🇳 हिन्दी**](README.hi.md) &nbsp;|&nbsp; [**🇫🇷 Français**](README.fr.md) &nbsp;|&nbsp; [**🇩🇪 Deutsch**](README.de.md) &nbsp;|&nbsp; [**🇨🇳 中文**](README.zh.md) &nbsp;|&nbsp; [**🇸🇦 العربية**](README.ar.md)
+### 🌐 Select Language / भाषाएं / Idiomas / Langues / Sprachen / 语言 / اللغات:
+
+<a href="../README.md"><img src="https://flagcdn.com/20x15/us.png" alt="USA" width="20" height="15"> <b>English</b></a> &nbsp;|&nbsp;
+<a href="README.bn.md"><img src="https://flagcdn.com/20x15/bd.png" alt="Bangladesh" width="20" height="15"> <b>বাংলা (Bangla)</b></a> &nbsp;|&nbsp;
+<a href="README.es.md"><img src="https://flagcdn.com/20x15/es.png" alt="Spain" width="20" height="15"> <b>Español</b></a> &nbsp;|&nbsp;
+<a href="README.hi.md"><img src="https://flagcdn.com/20x15/in.png" alt="India" width="20" height="15"> <b>हिन्दी (Hindi)</b></a> &nbsp;|&nbsp;
+<a href="README.fr.md"><img src="https://flagcdn.com/20x15/fr.png" alt="France" width="20" height="15"> <b>Français</b></a> &nbsp;|&nbsp;
+<a href="README.de.md"><img src="https://flagcdn.com/20x15/de.png" alt="Germany" width="20" height="15"> <b>Deutsch</b></a> &nbsp;|&nbsp;
+<a href="README.zh.md"><img src="https://flagcdn.com/20x15/cn.png" alt="China" width="20" height="15"> <b>中文</b></a> &nbsp;|&nbsp;
+<a href="README.ar.md"><img src="https://flagcdn.com/20x15/sa.png" alt="Saudi Arabia" width="20" height="15"> <b>العربية</b></a>
 
 </div>
 
